@@ -1,0 +1,8 @@
+
+title: "Soberanía en Agenda"
+description: "Un proyecto periodístico transmedia sobre soberanía argentina, Malvinas y Ley de Tierras."
+lang: "es"
+timezone: "America/Argentina/Buenos_Aires"
+
+markdown: kramdown
+permalink: /:categories/:year/:month/:day/:title/
