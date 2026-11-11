@@ -1,0 +1,262 @@
+
+/* =========================
+   SOBERANÍA EN AGENDA
+   Identidad visual
+========================= */
+
+:root {
+  --navy: #142d46;
+  --blue: #315d7c;
+  --sky: #dceaf2;
+  --paper: #f7f7f4;
+  --white: #ffffff;
+  --ink: #202a33;
+  --muted: #687782;
+  --line: #e1e5e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+}
+
+/* ENCABEZADO */
+
+.site-header {
+  background: var(--white);
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.site-brand {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--navy);
+}
+
+.brand-name {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.brand-description {
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.main-nav a {
+  color: var(--ink);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-nav a:hover {
+  color: var(--blue);
+}
+
+/* CONTENIDO */
+
+.site-main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px 28px 70px;
+}
+
+.hero {
+  padding: 65px 55px;
+  background: var(--navy);
+  color: var(--white);
+  border-radius: 4px;
+}
+
+.eyebrow,
+.section-label {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.eyebrow {
+  color: #b8d5e7;
+}
+
+.hero h1 {
+  max-width: 750px;
+  margin: 15px 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(38px, 6vw, 64px);
+  line-height: 1.12;
+}
+
+.hero-description {
+  max-width: 650px;
+  color: #e0eaf0;
+  font-size: 18px;
+}
+
+.featured {
+  max-width: 800px;
+  margin: 65px auto;
+}
+
+.section-label {
+  color: var(--blue);
+}
+
+.featured h2,
+.multimedia h2 {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  line-height: 1.25;
+}
+
+.featured p,
+.multimedia p {
+  color: var(--muted);
+}
+
+/* TEMAS */
+
+.topics {
+  margin: 70px 0;
+}
+
+.topics > h2 {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.topic-card {
+  padding: 28px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--blue);
+}
+
+.topic-number {
+  color: var(--blue);
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.topic-card h3 {
+  color: var(--navy);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+}
+
+.topic-card p {
+  color: var(--muted);
+  font-size: 15px;
+}
+
+/* MULTIMEDIA */
+
+.multimedia {
+  padding: 40px;
+  background: var(--sky);
+}
+
+/* PIE DE PÁGINA */
+
+.site-footer {
+  padding: 35px 25px;
+  background: var(--navy);
+  color: var(--white);
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 5px;
+}
+
+.site-footer p:last-child {
+  color: #c5d5df;
+  font-size: 13px;
+}
+
+/* CELULARES */
+
+@media (max-width: 700px) {
+  .header-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+    padding: 20px;
+  }
+
+  .main-nav {
+    gap: 12px 18px;
+  }
+
+  .site-main {
+    padding: 25px 18px 45px;
+  }
+
+  .hero {
+    padding: 40px 25px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .featured {
+    margin: 45px auto;
+  }
+
+  .featured h2,
+  .multimedia h2 {
+    font-size: 26px;
+  }
+
+  .topic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .multimedia {
+    padding: 28px;
+  }
+}
