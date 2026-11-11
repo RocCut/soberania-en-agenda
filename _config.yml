@@ -3,5 +3,8 @@ description: "Un proyecto periodístico transmedia sobre soberanía argentina, M
 lang: "es"
 timezone: "America/Argentina/Buenos_Aires"
 
+url: "https://roccut.github.io"
+baseurl: "/soberania-en-agenda"
+
 markdown: kramdown
 permalink: /:categories/:year/:month/:day/:title/
