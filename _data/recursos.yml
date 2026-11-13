@@ -5,13 +5,13 @@
 
 - titulo: Articulo periodistico
   tipo: Articulo
-  descripción: descripción.
-  url: /multimedia/articulo/
+  descripcion: descripción.
+  url: /multimedia/articulo-malvinas/
 
 - titulo: Mapa de Malvinas
   tipo: Mapa interactivo
   descripcion: descripción.
-  url: /multimedia/mapa-malvinas/
+  url: /multimedia/mapa-interactivo/
 
 - titulo: Línea de tiempo
   tipo: Cronología
