@@ -178,6 +178,10 @@ body {
   background: var(--white);
   border: 1px solid var(--line);
   border-top: 4px solid var(--blue);
+   /*agrego estilos para las tarjetas de Malvinas y Ley de Tierras*/
+  display: block;
+  color: inherit;
+  text-decoration: none;
 }
 
 .topic-number {
