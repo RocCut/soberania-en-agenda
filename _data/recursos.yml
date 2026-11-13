@@ -1,0 +1,24 @@
+- titulo: Podcast
+  tipo: Audio
+  descripcion: descripción.
+  url: /multimedia/podcast/
+
+- titulo: Articulo periodistico
+  tipo: Articulo
+  descripción: descripción.
+  url: /multimedia/articulo/
+
+- titulo: Mapa de Malvinas
+  tipo: Mapa interactivo
+  descripcion: descripción.
+  url: /multimedia/mapa-malvinas/
+
+- titulo: Línea de tiempo
+  tipo: Cronología
+  descripcion: descripción.
+  url: /multimedia/linea-de-tiempo/
+
+- titulo: Juego
+  tipo: Juego
+  descripcion: descripción.
+  url: /multimedia/juego/
