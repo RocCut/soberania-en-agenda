@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://roccut.github.io/soberania-en-agenda/sitemap.xml
